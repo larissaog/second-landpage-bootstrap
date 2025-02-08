@@ -20,15 +20,111 @@
             </button>
         <div class="collapse navbar-collapse" id="navbarNav"> 
         <ul class="navbar-nav ms-auto"> 
-            <li class="nav-tem" ><a class="nav-link" href="#hero">inicio</a></li>
-            <li class="nav-tem" ><a class="nav-link" href="#hero">serviços</a></li>
-            <li class="nav-tem" ><a class="nav-link" href="#hero">depoimentos</a></li>
-            <li class="nav-tem" ><a class="nav-link" href="#hero">contato</a></li> </div>
+            <li class="nav-tem" ><a class="nav-link" href="#inicio">inicio</a></li>
+            <li class="nav-tem" ><a class="nav-link" href="#servico">serviços</a></li>
+            <li class="nav-tem" ><a class="nav-link" href="#depoimentos">depoimentos</a></li>
+            <li class="nav-tem" ><a class="nav-link" href="#contato">contato</a></li> </div>
         </ul></div>
 
-        
-    
     </nav>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao Meu site</h1>
+            <p class="lead">Transformando ideias em realidade digital</p>
+            <a href="#" class="btn btn-dark">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal" id="#modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <!-- card -->
+
+    <section id="servicos" class="container my-5">
+        <h2 class="text-center mb-4"> Nossos serviços:</h2>
+        <div class="row text-center">
+            <!-- começando o card -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="" class="card-img-top"
+                    alt="serviço 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 1</h5>
+                        <p class="card-text">Descrição breve sobre esse serviço </p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal1">Detalhes</button>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <!-- carrosel -->
+         <selection id="depoimentos" class="container my-5">
+            <h2 class="text-center mb-4">depoimentos</h2>
+            <div id="carrosseldepoimentos" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+              
+            </div>
+         </selection>
+
+         <!-- footer -->
+
+         <footer id="contato" class="bg-dark text-white text-center py-4">
+            <p>&&copy; 2025 meu site. Todos os direitos reservados</p>
+            <p> Endereço: avenida dos Dev, 01</p>
+            <p> email: sovaiquemcoda@dev.com</p>
+            <p> redes sociais: <a hred="#" class="text-white">instagram </a>
+                <a href="#" class="text-while">linkedln</a>
+            </p>
+         </footer>
+
+    </section>
+
+
 
 
 
