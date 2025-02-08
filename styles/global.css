@@ -2,7 +2,7 @@
 /* root serve para criar variaveis no css */
 
 :root {
-    --variable-example: black;
+    --variable-example:#fff;
 
 }
 
